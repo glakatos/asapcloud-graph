@@ -1,12 +1,27 @@
-
+<#PSScriptInfo
+.SYNOPSIS
+    Function to import devices from Microsoft Graph API into a MySql database
+.VERSION 1.0.0
+.GUID we3213e2-3213-3213-3213-3213e3213e32
+.AUTHOR Gabor Lakatos - galakatos@asapcloud.com
+.DESCRIPTION
+    This module uses the Microsoft Graph Powershell SDK to connect to the Graph API and extract devices. The fields are then mapped to a MySql database and inserted into the database.
+    This module relies on the Connect-AsapGraphApi function to connect to the Graph API.
+.PARAMETER
+.EXAMPLE
+.NOTES
+.LINK
+.ISSUE
+.BUG
+#>
 Import-Module -Name .\Connect-AsapGraphApi.psm1
 function Import-MgDevices {
 
     # Define variables
-    $subscriptionId = "6747d176-a3d1-49a6-b54b-760c30ee1622"
-    $tenantId = "60922053-03d2-40e3-837a-5ca3fca7102b"
-    $subject = "CN=ASAPCloudGraphApiPowerShell App-Only"
-    $application = "AsapProtalGraphApi"
+    $subscriptionId = ""
+    $tenantId = ""
+    $subject = ""
+    $application = ""
 
     # Connect to Azure if not already connected
     if (-not (Get-AzContext)) {
