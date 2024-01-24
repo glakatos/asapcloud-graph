@@ -1,0 +1,1 @@
+2024-01-24 16:54:03 - Exception calling "ExecuteNonQuery" with "0" argument(s): "Column 'vendor' cannot be null"

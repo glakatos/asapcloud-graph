@@ -1,0 +1,1 @@
+2024-01-24 16:27:40 - Exception calling "ExecuteNonQuery" with "0" argument(s): "Field 'status' doesn't have a default value"

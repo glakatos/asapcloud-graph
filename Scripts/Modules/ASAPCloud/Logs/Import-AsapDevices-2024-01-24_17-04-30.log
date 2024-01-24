@@ -1,0 +1,1 @@
+2024-01-24 17:04:30 - Exception calling "ExecuteNonQuery" with "0" argument(s): "Column 'creationDate' cannot be null"

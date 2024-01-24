@@ -1,0 +1,1 @@
+2024-01-24 16:59:51 - Exception calling "ExecuteNonQuery" with "0" argument(s): "Field 'purchaseDate' doesn't have a default value"
