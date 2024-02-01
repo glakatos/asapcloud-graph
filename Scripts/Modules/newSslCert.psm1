@@ -7,7 +7,7 @@ function New-SslCertificate {
                 [string]$FilePath
         )
 
-        # Certificates are stored in the ..\Certificate folder. Modify the path if needed.
+        # Cert:\CurrentUser\My is a certificate store that is local to a user account on the computer.
         $cert = New-SelfSignedCertificate -Subject $Subject `
             -CertStoreLocation "Cert:\CurrentUser\My" `
             -KeyExportPolicy Exportable `
