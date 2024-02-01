@@ -51,8 +51,7 @@ Description = 'The importAadDevices.psm1 PowerShell module is designed to import
 # ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
-RequiredModules = @('connectToGraphApi', 
-               'Microsoft.Graph.Authentication')
+RequiredModules = @('Microsoft.Graph.Authentication')
 
 # Assemblies that must be loaded prior to importing this module
 # RequiredAssemblies = @()
